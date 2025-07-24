@@ -1,0 +1,20 @@
+.foot-content{
+display: flex;
+gap: 200px;
+margin-top: 120px;
+}
+
+
+.foot-list li {
+font-size: 18px;
+line-height: 185%;
+margin: 15px;
+}
+
+@media (max-width:1360px) {
+    .foot-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

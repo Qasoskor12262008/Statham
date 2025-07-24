@@ -1,0 +1,59 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+}
+
+
+.cards-content{
+display: flex;
+gap: 29.92px;
+margin-top: 180px;
+padding-bottom: 90px;
+}
+
+.card{
+width: 340px;
+border-radius: 14px;
+position: relative;
+cursor: pointer;
+padding: 15px;
+}
+
+.card:hover{
+box-shadow: 2px 2px 10px gray;
+}
+
+.card-border{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.card-title{
+font-size: 20px;
+line-height: 140%;
+margin-top: 69px;
+margin-left: 49px;
+margin-bottom: 17px;
+}
+
+.card-desc{
+font-size: 14px;
+line-height: 153%;
+margin-left: 49px;
+margin-bottom: 44px;
+}
+
+.card-img{
+margin-bottom: 69px;
+margin-left: 49px;
+}
+
+
+
+@media (max-width:1335px) {
+    .cards-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

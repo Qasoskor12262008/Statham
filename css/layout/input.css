@@ -1,0 +1,53 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+    --color:    #1B7F6D  ;
+}
+
+
+.input-content{
+max-width: 1600px;
+display: flex;
+justify-content: center;
+margin-top: 200px;
+}
+
+.input-crad{
+width: 908px;
+align-items: center;
+text-align: center;
+background-color: var(--color);
+}
+
+.help{
+display: flex;
+gap: 22px;
+}
+
+label{
+color: var(--secondary-color);
+}
+
+input {
+color: var(--secondary-color);
+margin-top: 20px;
+}
+
+.input-title{
+font-size: 36px;
+line-height: 100%;
+margin-bottom: 32px;
+color: var(--secondary-color);
+margin-top: 100px
+}
+
+@media (max-width:1400px) {
+    .input-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .imp-img{
+    width: 100%;
+    }
+}

@@ -1,0 +1,46 @@
+:root{
+    --main-color: black;
+    --secondary-color: white;
+}
+
+header{
+background-color: #29A28C1C;
+position: fixed;
+width: 100%;
+top: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.head-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.head-list{
+align-items: center;
+display: flex;
+gap: 30px;
+}
+
+.ul li a{
+font-size: 20px;
+line-height: 100%;
+color:var(--main-color);
+}
+
+.burger{
+display: none;
+}
+
+@media (max-width:860px) {
+.head-list{
+display: none;
+}
+
+.burger{
+display: block;
+}
+}
+
